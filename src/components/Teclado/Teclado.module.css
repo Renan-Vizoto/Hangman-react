@@ -1,0 +1,25 @@
+.teclado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0em auto;
+    gap: 2em;
+    width: 70%;
+}
+
+.teclas {
+    width: 3.2em;
+    height: 2.1em;
+    border: none;
+    font-size: 19px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+    font-family: 'Chalkduster', sans-serif;
+}
+
+.teclaClicada {
+    background-color: gray;
+    cursor: auto;
+}
